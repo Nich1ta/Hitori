@@ -2,7 +2,7 @@
 
 A playable version of **Hitori**, the Japanese logic puzzle, written in Python as a first-year university project (Computer Engineering, University of Parma).
 
-> **Status:** playable, work in progress. See *Known issues* below.
+> **Status:** playable, work in progress.
 
 ## The puzzle
 
@@ -49,16 +49,6 @@ The level files (`*.csv`) and `Menu.png` must be in the same folder as `main.py`
 | `boardgame.py` | Abstract board-game interface *(course-provided)* |
 | `g2d.py` | Simple 2D graphics wrapper on pygame *(course-provided)* |
 | `*.csv` | Puzzle levels, one row of comma-separated numbers per line |
-
-## Known issues / next steps
-
-- [ ] Right click currently shades every unmarked cell black instead of acting on a single cell
-- [ ] After choosing a level, the board only appears after the first click
-- [ ] Add an undo button and a timer
-
-## What I learned
-
-*(Write 2–4 sentences here in your own words.)*
 
 ## Credits
 
